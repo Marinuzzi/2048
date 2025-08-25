@@ -17,7 +17,7 @@ import { RefreshCw, Trophy, ArrowUp, ArrowDown, ArrowLeft, ArrowRight, Info } fr
 // Board config
 const SIZE = 4; // 4x4
 const START_TILES = 2;
-const TILE_COLORS: Record<number, string> = {
+const TILE_COLORS: {
   2: "bg-amber-100 text-amber-800",
   4: "bg-amber-200 text-amber-800",
   8: "bg-orange-300 text-white",
