@@ -144,7 +144,7 @@ export default function App() {
         <header className="head">
           <h1>2048</h1>
           <p style={{ margin: '0 0 20px 0', fontSize: '14px', color: '#776e65', fontStyle: 'italic' }}>
-            b Francesco Marinuzzi, Ph.D.
+            by Francesco Marinuzzi, Ph.D.
           </p>
           <div className="stats">
             <div className="box"><div className="label">Punteggio</div><div className="val">{score}</div></div>
